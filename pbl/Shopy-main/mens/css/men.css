@@ -1,0 +1,43 @@
+
+  /* ============= START HEADER ============= */
+  .transparent-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px;
+  }
+  
+  .logo h1 {
+    height: 50px; /* Adjust height as needed */
+    color: var(--black-75);
+    font-size: var(-font-size-2);
+    
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navigation ul li {
+    margin-left: 20px;
+    transition: all 0.3s ease; /* Adding transition effect */
+  }
+  
+  .navigation ul li:first-child {
+    margin-left: 0;
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Hover effect */
+  .navigation ul li:hover {
+    transform: scale(1.1); /* Increase size on hover */
+  }
+  
